@@ -127,7 +127,7 @@ The `[path]` can be:
 
 `git status` tells you about your repository
 
-`git status` can suggest what to do next
+---
 
 ## Staging & Committing
 
@@ -147,8 +147,10 @@ file-by-file, line-by-line
 2.  a list of files
 3.  a folder
 
+---
 `git commit` puts a change in the history
 
+---
 
 ---
 `git` has other commands to make the process easier
@@ -164,19 +166,6 @@ file-by-file, line-by-line
 `git diff` shows unstaged changes  
 file-by-file, line-by-line
 
-
-
----
-`git reset [file]` unstages `[file]`
-
-
-`git checkout [file]` removes unstaged changes
-
-`git checkout .` removes all unstaged changes
-
-`git diff` shows unstaged changes  
-file-by-file, line-by-line
-
 ---
 ## Your History
 ---
@@ -184,8 +173,6 @@ file-by-file, line-by-line
 file-by-file, line-by-line
 
 ---
-
-## Your History
 
 `git` is only as good as your **history**
 
