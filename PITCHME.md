@@ -49,8 +49,10 @@ c = 4
 -   extra collaboration tools
 -   large community of developers
 -   community platform
+---
 
 # Getting `git`
+---
 
 **Installation**
 
@@ -64,8 +66,6 @@ c = 4
 ---
 Type `git` into the terminal
 
-![git](https://adeen.me/github-workshop-20191012/img/gif/git.gif)
-
 We need to configure `git`
 
 `git` associates your name and email with every change you make
@@ -73,8 +73,6 @@ We need to configure `git`
 ---
 We need to configure `git`
 Type `git` into the terminal
-
-![git](https://adeen.me/github-workshop-20191012/img/gif/git.gif)
 
 We need to configure `git`
 
@@ -84,8 +82,6 @@ We need to configure `git`
 `git config --global user.name "name"`
 
 `git config --global user.email "email"`
-
-![git config --global user.name [name] && git config --global user.email [email]](https://adeen.me/github-workshop-20191012/img/gif/git-config-user.gif)
 
 ---
 # Basic `git`
@@ -110,8 +106,6 @@ Two ways to get a repository
 
 `git init` makes a new repository
 
-![git init](https://adeen.me/github-workshop-20191012/img/gif/git-init.gif)
-
 ---
 The **current** folder becomes the repository
 
@@ -124,8 +118,6 @@ The **current** folder becomes the repository
 
 ---
 `git clone [path]` copies a repository
-
-![git clone](https://adeen.me/github-workshop-20191012/img/gif/git-clone.gif)
 
 ---
 
@@ -141,11 +133,7 @@ The `[path]` can be:
 
 `git status` tells you about your repository
 
-![git status](https://adeen.me/github-workshop-20191012/img/gif/git-status-hello-world.gif)
-
 `git status` can suggest what to do next
-
-![git status suggestions](https://adeen.me/github-workshop-20191012/img/gif/git-st-suggestions.gif)
 
 ## Staging & Committing
 
@@ -157,11 +145,7 @@ file-by-file, line-by-line
 ---
 `git add [file]` stages changes
 
-![git add](https://adeen.me/github-workshop-20191012/img/gif/git-add.gif)
-
 `git add -p [file]` stages parts of a file
-
-![git add -p](https://adeen.me/github-workshop-20191012/img/gif/git-add-p.gif)
 
 `[file]` can be:
 
@@ -171,8 +155,6 @@ file-by-file, line-by-line
 
 `git commit` puts a change in the history
 
-![git commit](https://adeen.me/github-workshop-20191012/img/gif/git-commit.gif)
-
 
 ---
 `git` has other commands to make the process easier
@@ -180,7 +162,6 @@ file-by-file, line-by-line
 ---
 `git reset [file]` unstages `[file]`
 
-![git reset HEAD --](https://adeen.me/github-workshop-20191012/img/gif/git-reset-HEAD.gif)
 
 `git checkout [file]` removes unstaged changes
 
@@ -189,13 +170,11 @@ file-by-file, line-by-line
 `git diff` shows unstaged changes  
 file-by-file, line-by-line
 
-![git diff](https://adeen.me/github-workshop-20191012/img/gif/git-diff.gif)
 
 
 ---
 `git reset [file]` unstages `[file]`
 
-![git reset HEAD --](https://adeen.me/github-workshop-20191012/img/gif/git-reset-HEAD.gif)
 
 `git checkout [file]` removes unstaged changes
 
@@ -204,8 +183,7 @@ file-by-file, line-by-line
 `git diff` shows unstaged changes  
 file-by-file, line-by-line
 
-![git diff](https://adeen.me/github-workshop-20191012/img/gif/git-diff.gif)
-
+---
 ## Your History
 ---
 `git diff` shows unstaged changes  
@@ -244,6 +222,7 @@ file-by-file, line-by-line
     
     more changes
     
+---
 
 **Good history**
 
@@ -311,7 +290,6 @@ One line usually isn't enough
 
 `git log` shows history
 
-![git log](https://adeen.me/github-workshop-20191012/img/gif/git-log.gif)
 
 The log prints to terminal the:
 
@@ -328,16 +306,10 @@ The log **doesn't** show
 ---
 `git log --stat` adds files changed
 
-![git log --stat](https://adeen.me/github-workshop-20191012/img/gif/git-log-stat.gif)
-
 `git log --patch` adds lines changed
-
-![git log --patch](https://adeen.me/github-workshop-20191012/img/gif/git-log-patch.gif)
 
 `git log --follow [file]`  
 shows `[file]`'s history
-
-![git log --follow index.html](https://adeen.me/github-workshop-20191012/img/gif/git-log-follow.gif)
 
 ---
 **Getting Help**
