@@ -62,16 +62,6 @@ c = 4
     $ brew install git (mac os)
 
 ---
-Type `git` into the terminal
-
-We need to configure `git`
-
-`git` associates your name and email with every change you make
-
----
-We need to configure `git`
-Type `git` into the terminal
-
 We need to configure `git`
 
 `git` associates your name and email with every change you make
@@ -85,14 +75,16 @@ We need to configure `git`
 
 **Basic `git`**
 
-**## Scope**
+---
+** Scope**
 
 -   the repository
 -   staging & committing
 -   your history
-
-**## The Repository**
 ---
+
+**The Repository**
+
 A `git` repository is a folder on your computer
 
 ---
@@ -188,7 +180,7 @@ file-by-file, line-by-line
 `git diff` shows unstaged changes  
 file-by-file, line-by-line
 
-![git diff](https://adeen.me/github-workshop-20191012/img/gif/git-diff.gif)
+---
 
 ## Your History
 
@@ -200,48 +192,49 @@ file-by-file, line-by-line
 
 ---
 **Bad history**
-
--   a43cf8e Gwen Lofman 2017-10-02
+``
+ a43cf8e Gwen Lofman 2017-10-02
     
     please help
     
--   d43efa9 Gwen Lofman 2017-10-02
+d43efa9 Gwen Lofman 2017-10-02
     
     sorry
     
--   cb5a162 Gwen Lofman 2017-10-02
+cb5a162 Gwen Lofman 2017-10-02
     
     boop
     
--   9f52f7c Gwen Lofman 2017-10-02
+ 9f52f7c Gwen Lofman 2017-10-02
     
     i did stuff
     
--   096e606 Gwen Lofman 2017-10-02
+  096e606 Gwen Lofman 2017-10-02
     
     more changes
-    
+   
+   
 ---
 
 **Good history**
 
--   d43efa9 Gwen Lofman 2017-10-02
+d43efa9 Gwen Lofman 2017-10-02
     
     Add structured logging for cost calculation
     
--   cb5a162 Gwen Lofman 2017-10-02
+cb5a162 Gwen Lofman 2017-10-02
     
     Interpolate cost on uneven time step
     
--   9f52f7c Gwen Lofman 2017-10-02
+9f52f7c Gwen Lofman 2017-10-02
     
     Implement more efficient cost calculation
     
--   a43cf8e Gwen Lofman 2017-10-02
+a43cf8e Gwen Lofman 2017-10-02
     
     Implement regression test for cost bug
     
--   096e606 Gwen Lofman 2017-10-02
+    096e606 Gwen Lofman 2017-10-02
     
     Fix cost propagation bug
     
@@ -253,23 +246,23 @@ Write in present tense, imperative mood
 ---
 **Good history**
 
--   d43efa9 Gwen Lofman 2017-10-02
+d43efa9 Gwen Lofman 2017-10-02
     
     Add structured logging for cost calculation
     
--   cb5a162 Gwen Lofman 2017-10-02
+cb5a162 Gwen Lofman 2017-10-02
     
     Interpolate cost on uneven time step
     
--   9f52f7c Gwen Lofman 2017-10-02
+9f52f7c Gwen Lofman 2017-10-02
     
     Implement more efficient cost calculation
     
--   a43cf8e Gwen Lofman 2017-10-02
+a43cf8e Gwen Lofman 2017-10-02
     
     Implement regression test for cost bug
     
--   096e606 Gwen Lofman 2017-10-02
+096e606 Gwen Lofman 2017-10-02
     
     Fix cost propagation bug
    ---
