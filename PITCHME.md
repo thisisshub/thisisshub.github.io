@@ -37,6 +37,8 @@ c = 4
 -   `ls` - list files & directories
 -   `mkdir` - make directory
 
+---
+
  **What is GitHub?**
 
 **GitHub** is an online interface for `git`
@@ -48,9 +50,9 @@ c = 4
 -   community platform
 ---
 
-# Getting 
+**Getting** 
 
-## `git`
+**`git`**
 
 **Installation**
 
