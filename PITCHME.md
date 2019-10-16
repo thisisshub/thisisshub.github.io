@@ -13,3 +13,334 @@
 -  undo changes
 -   modify changes
 ---
+`git` avoids the **problems** of bad version control
+
+---
+Code commented out with no explanation
+
+```
+a = 2 
+b = 3
+c = 4
+# d = input('Please enter a no: ')
+```
+
+---
+`git` is a command line utility
+
+![terminal emulator example](https://adeen.me/github-workshop-20191012/img/gif/terminal.gif)
+
+**Terminal command syntax**
+
+`command`
+
+**Navigating the file system**
+
+-   `cd` - change directory
+-   `ls` - list files & directories
+-   `mkdir` - make directory
+
+## What is GitHub?
+
+**GitHub** is an online interface for `git`
+
+---
+-   host your code online
+-   extra collaboration tools
+-   large community of developers
+-   community platform
+
+# Getting `git`
+
+**Installation**
+
+ -   sudo pacman -S git (arch)
+    
+-   sudo apt-get install git (ubuntu)
+    
+-   sudo dnf install git (fedora)
+    
+-   brew install git (mac os)
+---
+Type `git` into the terminal
+
+![git](https://adeen.me/github-workshop-20191012/img/gif/git.gif)
+
+We need to configure `git`
+
+`git` associates your name and email with every change you make
+
+---
+We need to configure `git`
+Type `git` into the terminal
+
+![git](https://adeen.me/github-workshop-20191012/img/gif/git.gif)
+
+We need to configure `git`
+
+`git` associates your name and email with every change you make
+
+---
+`git config --global user.name "name"`
+
+`git config --global user.email "email"`
+
+![git config --global user.name [name] && git config --global user.email [email]](https://adeen.me/github-workshop-20191012/img/gif/git-config-user.gif)
+
+---
+# Basic `git`
+
+## Scope
+
+-   the repository
+-   staging & committing
+-   your history
+
+## The Repository
+---
+A `git` repository is a folder on your computer
+
+---
+Your code and all its versions live in the repository
+
+Two ways to get a repository
+
+-   make a new one
+-   copy an old one
+
+`git init` makes a new repository
+
+![git init](https://adeen.me/github-workshop-20191012/img/gif/git-init.gif)
+
+---
+The **current** folder becomes the repository
+
+---
+**TL; DR**
+
+1.  `mkdir [folder]` - make a new folder
+2.  `cd [folder]` - enter the folder
+3.  `git init` - make the folder a repo
+
+---
+`git clone [path]` copies a repository
+
+![git clone](https://adeen.me/github-workshop-20191012/img/gif/git-clone.gif)
+
+---
+
+`git clone` makes a **new** folder in your current folder
+
+---
+The `[path]` can be:
+
+-   a repository on your computer
+-   a link to a remote repository
+
+---
+
+`git status` tells you about your repository
+
+![git status](https://adeen.me/github-workshop-20191012/img/gif/git-status-hello-world.gif)
+
+`git status` can suggest what to do next
+
+![git status suggestions](https://adeen.me/github-workshop-20191012/img/gif/git-st-suggestions.gif)
+
+## Staging & Committing
+
+**Staging** combines related changes
+
+**Commits** document these changes  
+file-by-file, line-by-line
+
+---
+`git add [file]` stages changes
+
+![git add](https://adeen.me/github-workshop-20191012/img/gif/git-add.gif)
+
+`git add -p [file]` stages parts of a file
+
+![git add -p](https://adeen.me/github-workshop-20191012/img/gif/git-add-p.gif)
+
+`[file]` can be:
+
+1.  a file
+2.  a list of files
+3.  a folder
+
+`git commit` puts a change in the history
+
+![git commit](https://adeen.me/github-workshop-20191012/img/gif/git-commit.gif)
+
+
+---
+`git` has other commands to make the process easier
+
+---
+`git reset [file]` unstages `[file]`
+
+![git reset HEAD --](https://adeen.me/github-workshop-20191012/img/gif/git-reset-HEAD.gif)
+
+`git checkout [file]` removes unstaged changes
+
+`git checkout .` removes all unstaged changes
+
+`git diff` shows unstaged changes  
+file-by-file, line-by-line
+
+![git diff](https://adeen.me/github-workshop-20191012/img/gif/git-diff.gif)
+
+
+---
+`git reset [file]` unstages `[file]`
+
+![git reset HEAD --](https://adeen.me/github-workshop-20191012/img/gif/git-reset-HEAD.gif)
+
+`git checkout [file]` removes unstaged changes
+
+`git checkout .` removes all unstaged changes
+
+`git diff` shows unstaged changes  
+file-by-file, line-by-line
+
+![git diff](https://adeen.me/github-workshop-20191012/img/gif/git-diff.gif)
+
+## Your History
+---
+`git diff` shows unstaged changes  
+file-by-file, line-by-line
+
+![git diff](https://adeen.me/github-workshop-20191012/img/gif/git-diff.gif)
+
+## Your History
+
+`git` is only as good as your **history**
+
+`git` is only as good as your **commits**
+
+**Commits** build a history
+
+---
+**Bad history**
+
+-   a43cf8e Gwen Lofman 2017-10-02
+    
+    please help
+    
+-   d43efa9 Gwen Lofman 2017-10-02
+    
+    sorry
+    
+-   cb5a162 Gwen Lofman 2017-10-02
+    
+    boop
+    
+-   9f52f7c Gwen Lofman 2017-10-02
+    
+    i did stuff
+    
+-   096e606 Gwen Lofman 2017-10-02
+    
+    more changes
+    
+
+**Good history**
+
+-   d43efa9 Gwen Lofman 2017-10-02
+    
+    Add structured logging for cost calculation
+    
+-   cb5a162 Gwen Lofman 2017-10-02
+    
+    Interpolate cost on uneven time step
+    
+-   9f52f7c Gwen Lofman 2017-10-02
+    
+    Implement more efficient cost calculation
+    
+-   a43cf8e Gwen Lofman 2017-10-02
+    
+    Implement regression test for cost bug
+    
+-   096e606 Gwen Lofman 2017-10-02
+    
+    Fix cost propagation bug
+    
+
+Write in present tense, imperative mood
+
+-   `Add README with title and summary`
+-   `Rewrite presentation section on commit messages`
+---
+**Good history**
+
+-   d43efa9 Gwen Lofman 2017-10-02
+    
+    Add structured logging for cost calculation
+    
+-   cb5a162 Gwen Lofman 2017-10-02
+    
+    Interpolate cost on uneven time step
+    
+-   9f52f7c Gwen Lofman 2017-10-02
+    
+    Implement more efficient cost calculation
+    
+-   a43cf8e Gwen Lofman 2017-10-02
+    
+    Implement regression test for cost bug
+    
+-   096e606 Gwen Lofman 2017-10-02
+    
+    Fix cost propagation bug
+   ---
+   Write in present tense, imperative mood
+
+-   `Add README with title and summary`
+-   `Rewrite presentation section on commit messages`
+---
+Describe not just what, but **why**
+
+---
+One line usually isn't enough
+
+-   Short summary line
+-   Detailed body
+---
+
+`git log` shows history
+
+![git log](https://adeen.me/github-workshop-20191012/img/gif/git-log.gif)
+
+The log prints to terminal the:
+
+-   unique commit id
+-   metadata such as author
+-   commit message
+
+The log **doesn't** show
+
+-   which files changed
+-   what lines changed
+-   the history of one file
+
+---
+`git log --stat` adds files changed
+
+![git log --stat](https://adeen.me/github-workshop-20191012/img/gif/git-log-stat.gif)
+
+`git log --patch` adds lines changed
+
+![git log --patch](https://adeen.me/github-workshop-20191012/img/gif/git-log-patch.gif)
+
+`git log --follow [file]`  
+shows `[file]`'s history
+
+![git log --follow index.html](https://adeen.me/github-workshop-20191012/img/gif/git-log-follow.gif)
+
+---
+**Getting Help**
+`git help` or documentation at [git-scm.com/doc](https://git-scm.com/doc)
+
+
