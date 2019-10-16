@@ -6,13 +6,14 @@
  - **Advanced** `git`
  - **`GitHub`** **Workflow**
 ---
-## ## What is `git`?
+ **What is `git`?**
 `git` is **good** version control
 
 -  add changes
 -  undo changes
 -   modify changes
 ---
+
 `git` avoids the **problems** of bad version control
 
 ---
@@ -24,13 +25,10 @@ b = 3
 c = 4
 # d = input('Please enter a no: ')
 ```
-
 ---
 `git` is a command line utility
 
-**Terminal command syntax**
-
-`command`
+---
 
 **Navigating the file system**
 
@@ -38,7 +36,7 @@ c = 4
 -   `ls` - list files & directories
 -   `mkdir` - make directory
 
-## What is GitHub?
+ **What is GitHub?**
 
 **GitHub** is an online interface for `git`
 
@@ -49,18 +47,20 @@ c = 4
 -   community platform
 ---
 
-# Getting `git`
----
+# Getting 
+
+## `git`
 
 **Installation**
 
- -   sudo pacman -S git (arch)
-    
--   sudo apt-get install git (ubuntu)
-    
--   sudo dnf install git (fedora)
-    
--   brew install git (mac os)
+    $ sudo pacman -S git (arch)
+        
+    $ sudo apt-get install git (ubuntu)
+        
+    $ sudo dnf install git (fedora)
+        
+    $ brew install git (mac os)
+
 ---
 Type `git` into the terminal
 
@@ -82,15 +82,16 @@ We need to configure `git`
 `git config --global user.email "email"`
 
 ---
-# Basic `git`
 
-## Scope
+**Basic `git`**
+
+**## Scope**
 
 -   the repository
 -   staging & committing
 -   your history
 
-## The Repository
+**## The Repository**
 ---
 A `git` repository is a folder on your computer
 
