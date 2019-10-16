@@ -28,8 +28,6 @@ c = 4
 ---
 `git` is a command line utility
 
-![terminal emulator example](https://adeen.me/github-workshop-20191012/img/gif/terminal.gif)
-
 **Terminal command syntax**
 
 `command`
