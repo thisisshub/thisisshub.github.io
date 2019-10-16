@@ -181,94 +181,7 @@ file-by-file, line-by-line
 **Commits** build a history
 
 ---
-**Bad history**
-``
- a43cf8e Gwen Lofman 2017-10-02
-    
-    please help
-    
-d43efa9 Gwen Lofman 2017-10-02
-    
-    sorry
-    
-cb5a162 Gwen Lofman 2017-10-02
-    
-    boop
-    
- 9f52f7c Gwen Lofman 2017-10-02
-    
-    i did stuff
-    
-  096e606 Gwen Lofman 2017-10-02
-    
-    more changes
-   
-   
----
 
-**Good history**
-
-d43efa9 Gwen Lofman 2017-10-02
-    
-    Add structured logging for cost calculation
-    
-cb5a162 Gwen Lofman 2017-10-02
-    
-    Interpolate cost on uneven time step
-    
-9f52f7c Gwen Lofman 2017-10-02
-    
-    Implement more efficient cost calculation
-    
-a43cf8e Gwen Lofman 2017-10-02
-    
-    Implement regression test for cost bug
-    
-    096e606 Gwen Lofman 2017-10-02
-    
-    Fix cost propagation bug
-    
-
-Write in present tense, imperative mood
-
--   `Add README with title and summary`
--   `Rewrite presentation section on commit messages`
----
-**Good history**
-
-d43efa9 Gwen Lofman 2017-10-02
-    
-    Add structured logging for cost calculation
-    
-cb5a162 Gwen Lofman 2017-10-02
-    
-    Interpolate cost on uneven time step
-    
-9f52f7c Gwen Lofman 2017-10-02
-    
-    Implement more efficient cost calculation
-    
-a43cf8e Gwen Lofman 2017-10-02
-    
-    Implement regression test for cost bug
-    
-096e606 Gwen Lofman 2017-10-02
-    
-    Fix cost propagation bug
-   ---
-   Write in present tense, imperative mood
-
--   `Add README with title and summary`
--   `Rewrite presentation section on commit messages`
----
-Describe not just what, but **why**
-
----
-One line usually isn't enough
-
--   Short summary line
--   Detailed body
----
 
 `git log` shows history
 
@@ -286,6 +199,7 @@ The log **doesn't** show
 -   the history of one file
 
 ---
+
 `git log --stat` adds files changed
 
 `git log --patch` adds lines changed
