@@ -213,7 +213,7 @@ shows `[file]`'s history
 
 ---
 
-# Opensource
+**Opensource**
  
 free software.
 
@@ -226,3 +226,6 @@ https://whatcanidoformozilla.org/#!/progornoprog/proglang
 https://github.com/tapaswenipathak/Open-Source-Programs
 
 ---
+ **you may leave now**
+
+shoo away..
