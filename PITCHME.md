@@ -211,4 +211,18 @@ shows `[file]`'s history
 **Getting Help**
 `git help` or documentation at [git-scm.com/doc](https://git-scm.com/doc)
 
+---
 
+# Opensource
+ 
+free software.
+
+---
+
+**where does it exist?!**
+
+https://summerofcode.withgoogle.com/
+https://whatcanidoformozilla.org/#!/progornoprog/proglang
+https://github.com/tapaswenipathak/Open-Source-Programs
+
+---
