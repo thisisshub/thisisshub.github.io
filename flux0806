@@ -1,0 +1,34 @@
+private void display_productsActionPerformed(java.awt.event.ActionEvent evt) {                                                 
+      int x = 0;
+        DefaultTableModel model = (DefaultTableModel) tb.getModel();
+        try
+       {Class.forName("java.sql.Driver");
+           String db_url="jdbc:mysql://localhost/the_optical";
+           Connection con=(Connection)DriverManager.getConnection(db_url,"root","giis");
+           Statement st=con.createStatement();
+           String query="SELECT * from products ";
+           ResultSet rs=st.executeQuery(query);
+            
+             while(rs.next())
+             {
+                 String prod  = rs.getString("product");
+                 String descr = rs.getString("description");
+                 int    amt   = rs.getInt("amount");
+                 
+                 x=x+amt;
+            model.addRow(new Object[] {prod,descr,amt});
+             }
+             
+             
+       }
+       catch(ClassNotFoundException | SQLException ee)
+         {
+              JOptionPane.showMessageDialog(null,"error");
+              
+         }
+        tf1.setText(x+"");
+        
+          
+                                      
+        
+    }        
