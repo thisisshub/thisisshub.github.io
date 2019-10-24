@@ -1,0 +1,32 @@
+private void newaccountActionPerformed(java.awt.event.ActionEvent evt) {                                           
+        // TODO add your handling code here:
+        
+         String a=tf1.getText();
+        String b=tf2.getText();
+        String c=tf3.getText();
+        String d=p1.getText();
+        //String e=p2.getText();
+        String pass1 = new String(p1.getPassword());
+        String pass2 = new String(p2.getPassword());
+      
+       
+      try
+      { 
+           Class.forName("java.sql.Driver");
+           String db_url="jdbc:mysql://localhost/the_optical";
+           Connection con=DriverManager.getConnection(db_url,"root","fgarg2001");
+           Statement st=con.createStatement();
+        String query= "Insert into new_account values( '"+a+"',  '"+b+"' , '"+c+"' , '"+pass1+"' , '"+pass2+"');";
+         //  String query="Insert into new_account values("shreya","bage","gmail","abc","abc");";
+             rs=st.executeUpdate(query);
+             JOptionPane.showMessageDialog(null," You have been signed up as a member of The Optical."
+                   +'\n'+" ");
+         
+      }
+          
+         catch(ClassNotFoundException | SQLException ee)
+         {
+              JOptionPane.showMessageDialog(null,ee);
+              
+         }
+    }                                     
