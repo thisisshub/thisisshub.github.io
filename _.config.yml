@@ -1,0 +1,67 @@
+# Site settings
+title: Shubhashish
+twitter_username: thisisshub
+instagram_username: imnotshub
+name: Shubhashish Dixit
+
+#User specific content
+#Links that will appear in the navbar
+primarylinks:
+ - title: GitHub
+   url: https://github.com/thisisshub
+
+
+#Any buzzword skills you want to include
+skills:
+ - Python
+ - C / C++
+ - HTML / CSS
+ - JavaScript
+
+#Work experience is required
+roles:
+ - title: Student Developer
+   start: May 2020
+   end: August 2020
+   employer: Google Summer of Code
+   description: Contributed to the openSUSE rpmlint project
+
+#Education is required
+education:
+ - level: Bachelor of Technology (B.Tech)
+   date: 2022
+   subject: Computer Science
+   school: Medi Caps University
+
+
+#This section is optional (as is the image link below)
+coursera:
+   profileurl: https://www.coursera.org/user/3c44a0157c6192597b52c17dd0cb754b
+   courses:
+    - title: Python Data Structures
+      link: https://www.coursera.org/learn/python-data
+      date: May 2, 2020
+
+   courses:
+    - title: End-to-End Machine Learning with TensorFlow on GCP      
+      link: https://www.coursera.org/learn/end-to-end-ml-tensorflow-gcp      
+      date: April 30, 2020
+
+
+   courses:
+    - title: End-to-End Machine Learning with TensorFlow on GCP      
+      link: https://www.coursera.org/learn/python      
+      date: April 30, 2020
+
+#List of interesting Github repo/projects to include - optional
+github:
+ - thisisshub/Alexis
+ - thisisshub/rpmlint
+ - thisisshub/notes_project
+ - vlang/v
+ - mozilla/mozdownload
+ - thisisshub/NMIMS
+ - thisisshub/django_project
+ - thisisshub/pytodo
+ - thisisshub/autoamte-aggregator
+ - thisisshub/version-beta
