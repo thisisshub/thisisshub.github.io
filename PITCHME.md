@@ -1,6 +1,6 @@
 ## Aarambh 2020;
 
----
+---?color=linear-gradient(180deg, white 50%, #005f6b 50%)
 ### Who am I?
 `Shubhashish Dixit`
  - Done internship with Google Summer of Code this year
@@ -8,6 +8,7 @@
  - Active contributor to projects **Mozdownload (Mozilla)**, **Fedora**, **rpm-management**  
  - find me at [/thisisshub](https://github.com/thisisshub)
  
+@snap[south span-100 font-montserrat text-white]
 ##### Who would I be to you in this hackathon?
 - I'll be your mentor and the tech support guy. 
 ---
