@@ -1,12 +1,26 @@
-## Git Github and Open Source ( );
+## Aarambh 2020;
+
 ---
- - `git`
- - `understanding github`
- - `Markdown` **basics**
- - **Advanced** `git`
- - **`GitHub`** **Workflow**
+### Who am I?
+`Shubhashish Dixit`
+ - Done internship with Google Summer of Code this year
+ along with openSUSE on project **rpmlint**
+ - Active contributor to projects **Mozdownload (Mozilla)**, **Fedora**, **rpm-management**  
+ - find me at [/thisisshub](https://github.com/thisisshub)
+ 
+##### Who would I be to you in this hackathon?
+- I'll be your mentor and the tech support guy. 
 ---
- **What is `git`?**
+
+### Code Tussle Hackathon
+`What is it?`
+ - **36 hour** hackathon
+ Consisting of exciting prizes at the end waiting for you to take.
+
+##### 
+---
+- **`GitHub`** **Workflow**
+**What is `git`?**
  
 `git` is **good** version control
 
