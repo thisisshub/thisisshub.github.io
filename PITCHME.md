@@ -1,9 +1,13 @@
 
 ---?color=linear-gradient(to top right, #36d1dc, #5b86e5)
 
-## OpenSource, 
-@title
-HacktoberFest, Google Summer of Code.
+[drag=32 20, drop=5 0]
+# OpenSource, 
+
+# HacktoberFest, 
+
+[drag=90 50, drop=center, fit=3.4]
+# Google Summer of Code.
 
 ---
 
