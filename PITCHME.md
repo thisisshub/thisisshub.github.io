@@ -1,6 +1,14 @@
-## Aarambh 2020;
 
----?color=linear-gradient(180deg, white 50%, #005f6b 50%)
+---?color=linear-gradient(to top right, #36d1dc, #5b86e5)
+
+## OpenSource, 
+@title
+HacktoberFest, Google Summer of Code.
+
+---
+
+---?color=linear-gradient(to top right, #36d1dc, #5b86e5)
+
 ### Who am I?
 `Shubhashish Dixit`
  - Done internship with Google Summer of Code this year
@@ -13,13 +21,15 @@
 - I'll be your mentor and the tech support guy. 
 ---
 
-### Code Tussle Hackathon
-`What is it?`
- - **36 hour** hackathon
- Consisting of exciting prizes at the end waiting for you to take.
+---?color=linear-gradient(to top right, #36d1dc, #5b86e5)
+
+Aa
 
 ##### 
 ---
+
+---?color=linear-gradient(to top right, #36d1dc, #5b86e5)
+
 - **`GitHub`** **Workflow**
 **What is `git`?**
  
